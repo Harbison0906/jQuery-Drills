@@ -51,6 +51,6 @@ $('#btnSubmit').click(function () {
   });
 
   $('.item').dblclick(function() {
-    $('.list').remove(this);
+    $(this).remove();
   })
 });
